@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block title %}دسته: {{ category }}{% endblock %}
+
+{% block content %}
+<h2>پست‌های دسته {{ category }}</h2>
+<ul>
+  {% for post in posts %}
+  <li>
+    <a href="{{ base_url }}{{ post.url }}">{{ post.title }}</a>
+    <small>({{ post.date }})</small>
+  </li>
+  {% endfor %}
+</ul>
+{% endblock %}

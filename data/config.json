@@ -1,0 +1,15 @@
+{
+  "site_title": "وبلاگ من",
+  "site_description": "دلنوشته‌ها و مطالب تخصصی",
+  "base_url": "https://user972853.github.io/my-blog/",
+  "author": "علی",
+  "categories": ["بیهوشی", "مغز", "مواد", "سایر" ,"profile"],
+  "menu": [
+    {"name": "صفحه اصلی", "url": "/"},
+    {"name": "بیهوشی", "url": "/categories/بیهوشی.html"},
+    {"name": "مغز", "url": "/categories/مغز.html"},
+    {"name": "مواد", "url": "/categories/مواد.html"},
+    {"name": "سایر", "url": "/categories/سایر.html"},
+    {"name": "profile", "url": "/categories/profile.html"}
+  ]
+}

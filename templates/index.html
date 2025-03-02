@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block title %}صفحه اصلی{% endblock %}
+
+{% block content %}
+<h2>پست‌های اخیر</h2>
+<ul>
+  {% for post in posts %}
+  <li>
+    <a href="{{ post.url }}">{{ post.title }}</a>
+    <span>({{ post.date }})</span>
+  </li>
+  {% endfor %}
+</ul>
+{% endblock %}
